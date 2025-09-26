@@ -1,0 +1,79 @@
+.container {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  background: black;
+  color: white;
+  min-height: 100vh;
+}
+
+.form {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background: #222;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.form input, .form button {
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+}
+
+.form input {
+  background: #333;
+  color: white;
+}
+
+.form button {
+  background: #555;
+  color: white;
+  cursor: pointer;
+}
+
+.ledger {
+  flex: 1;
+  background: #111;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.entry {
+  background: #222;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.entry button {
+  margin-right: 5px;
+  padding: 5px 10px;
+  background: #444;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.pendingHighlight {
+  border: 2px solid red;
+}
+
+.total {
+  margin-top: 20px;
+  padding: 10px;
+  background: #000;
+  border-radius: 5px;
+  text-align: right;
+  font-size: 18px;
+}
+
+.positive {
+  color: lightgreen;
+}
+
+.negative {
+  color: red;
+}
